@@ -6,7 +6,7 @@ export default function () {
         <Switch>
             <Route path="/" render={() => (
                 <div>
-                    foo page
+                    <h1>blog page</h1>
                     <button onClick={() => {
                         console.log(window.innerHeight)
                     }}>
