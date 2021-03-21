@@ -8,7 +8,7 @@ export default function () {
                 <div>
                     <h1>blog page</h1>
                     <button onClick={() => {
-                        console.log(window.innerHeight)
+                        console.log(window.innerWidth)
                     }}>
                         button
                     </button>
