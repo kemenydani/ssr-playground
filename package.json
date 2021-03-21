@@ -4,7 +4,7 @@
   "scripts": {
     "webpack:page": "webpack --config webpack.page.js --watch",
     "webpack:server": "webpack --config webpack.server.js --watch",
-    "webpack:start": "nodemon --watch build --exec node ./build/server.bundle.js",
+    "webpack:start": "nodemon --watch build --exec node ./target/private/server.bundle.js",
     "dev": "npm-run-all --parallel webpack:*",
     "build": "webpack --config webpack.page.js && webpack --config webpack.server.js"
   },
