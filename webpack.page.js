@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
     target: 'node',
     entry: {
-        foo : './src/pages/foo/index.js'
+        blog : './src/pages/blog/index.js'
     },
     output: {
         filename: '[name].page.bundle.js',

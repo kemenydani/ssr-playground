@@ -1,12 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import {BrowserRouter} from 'react-router-dom'
-
-import App from './App';
+import {BrowserRouter} from "react-router-dom";
+import BlogPage from "./BlogPage";
 
 ReactDOM.hydrate(
     <BrowserRouter>
-        <App/>
+        <BlogPage />
     </BrowserRouter>,
     document.getElementById('root')
 );
